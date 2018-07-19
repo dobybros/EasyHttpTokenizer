@@ -10,6 +10,6 @@ next aim:
 - chinese tokenizer
 - simplify the `url` for selecting languges
 - simplify coding
-- optional parsing argu and logging
+- optional parsing argu and logging recording
 
 
