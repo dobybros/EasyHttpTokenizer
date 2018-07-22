@@ -15,20 +15,20 @@
 # Description
 
 ### Abtract
-This script is [SimpleHTTPServer]() in Python3 and some tokenizer such as [Cutkum]() which is used for Thai language. The mechanism is sending word in [POST method]() to defined URL, then get tokenized word from responding.
+This script is [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html) in Python3 and some tokenizer such as [Cutkum]() which is used for Thai language. The mechanism is sending word in [POST method](https://en.wikipedia.org/wiki/POST_(HTTP)) to defined URL, then get tokenized word from responding.
 
-(picture)
+![](https://raw.githubusercontent.com/dobybros/EasyHttpTokenizer/master/ez_http_tokenizer_diagram.jpg#center)
 
-In additional, you can add/edit/modify following [MIT licence](#lience). This open-source is in the start process of development, many of things need to be improved. we are pleasant for receiving any your comments.
+In additional, you can add/edit/modify under [MIT licence](#lience). This open-source is in the starting process of development, many of things need to be improved. we are pleasant for receiving any your comments.
 ###  TODO
 
-To open the simple HTTP Server use this:
+To open the simple HTTP Server, use this:
 ```
 $ python3.6 easy_http_tokenizer.py 127.0.0.1 6489
 
 ```
 ##### Note that 127.0.0.1:6489 is the IP and port that you set up, if you have own server so it can be used.
-To use word tokenizer, use this
+To use word tokenizer, use this:
 ```
 $ Curl -X POST 127.0.0.1:6489 -m "some text"
 ```
