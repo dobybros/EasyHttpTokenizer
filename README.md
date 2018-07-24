@@ -50,9 +50,12 @@ There are 3 prerequisites:
     pip install Cutkum
     ```
     ##### Note that when installing Cutkum, it's also including tensorflow, numpy, tensorboad, gast, termcolor, grpcio, six, absl-py, protobuf, wheel, astor, werkzeug, html5lib, bleach, markdown and setuptools already. Don't need to install them after. 
+
 [Back to TOC](#table-of-contents)
+
 # Licence
 This code is licensed under the MIT License - see the [LICENSE](https://github.com/dobybros/EasyHttpTokenizer/blob/master/LICENSE) file for details
 # See Also
 - ［SimpleHTTPHandler](https://docs.python.org/3.7/library/http.server.html?highlight=simplehttp)
+
 [Back to TOC](#table-of-contents)
