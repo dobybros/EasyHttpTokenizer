@@ -55,7 +55,9 @@ There are 3 prerequisites:
 
 # Licence
 This code is licensed under the MIT License - see the [LICENSE](https://github.com/dobybros/EasyHttpTokenizer/blob/master/LICENSE) file for details
+
+[Back to TOC](#table-of-contents)
 # See Also
-- ［SimpleHTTPHandler](https://docs.python.org/3.7/library/http.server.html?highlight=simplehttp)
+- [SimpleHTTPHandler](https://docs.python.org/3.7/library/http.server.html?highlight=simplehttp)
 
 [Back to TOC](#table-of-contents)
