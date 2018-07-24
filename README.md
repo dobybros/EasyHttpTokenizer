@@ -15,7 +15,7 @@
 # Description
 
 ### Abtract
-This script is [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html) in [Python3](https://www.python.org) and tokenizer that is[Cutkum]((https://github.com/pucktada/cutkum) which is used for Thai language. The mechanism is sending word in [POST method](https://en.wikipedia.org/wiki/POST_(HTTP)) to defined URL, then get tokenized word from responding.
+This script is [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html) in [Python3](https://www.python.org) and tokenizer that is[Cutkum](https://github.com/pucktada/cutkum) which is used for Thai language. The mechanism is sending word in [POST method](https://en.wikipedia.org/wiki/POST_(HTTP)) to defined URL, then get tokenized word from responding.
 
 ![](https://raw.githubusercontent.com/dobybros/EasyHttpTokenizer/master/ez_http_tokenizer_diagram.jpg#center)
 
