@@ -17,9 +17,9 @@
 ### Abtract
 This script is [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html) in [Python3](https://www.python.org) and tokenizer that is[Cutkum](https://github.com/pucktada/cutkum) which is used for Thai language. The mechanism is sending word in [POST method](https://en.wikipedia.org/wiki/POST_(HTTP)) to defined URL, then get tokenized word from responding.
 
-![](https://raw.githubusercontent.com/dobybros/EasyHttpTokenizer/master/ez_http_tokenizer_diagram.jpg#center)
+![](https://raw.githubusercontent.com/dobybros/EasyHttpTokenizer/master/Documentation/ez_http_tokenizer_diagram.jpg#center)
 
-In additional, you can add/edit/modify under [MIT licence](https://github.com/dobybros/EasyHttpTokenizer/blob/master/LICENSE). This open-source is in the starting process of development, many of things need to be improved. we are pleasant for receiving any your comments.
+In additional, you can add/edit/modify under [MIT licence]https://github.com/dobybros/EasyHttpTokenizer/blob/master/Documentation/LICENSE). This open-source is in the starting process of development, many of things need to be improved. we are pleasant for receiving any your comments.
 ###  TODO
 
 To open the simple HTTP Server, use this:
@@ -54,7 +54,7 @@ There are 3 prerequisites:
 [Back to TOC](#table-of-contents)
 
 # Licence
-This code is licensed under the MIT License - see the [LICENSE](https://github.com/dobybros/EasyHttpTokenizer/blob/master/LICENSE) file for details
+This code is licensed under the MIT License - see the [LICENSE](https://github.com/dobybros/EasyHttpTokenizer/blob/master/Documentation/LICENSE) file for details
 
 [Back to TOC](#table-of-contents)
 # See Also
