@@ -27,7 +27,6 @@ In additional, you can add/edit/modify under [MIT licence](https://github.com/do
 To open the simple HTTP Server, use this:
 ```
 $ python easy_http_tokenizer.py 6489 127.0.0.1
-
 ```
 ##### Note that 127.0.0.1:6489 is the IP and port that you set up, if you have own server so it can be used.
 To use word tokenizer, use this:
