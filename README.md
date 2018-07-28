@@ -68,4 +68,5 @@ This code is licensed under the MIT License - see the [LICENSE](https://github.c
 # See Also
 - [SimpleHTTPHandler](https://docs.python.org/3.6.4/library/http.server.html?highlight=simplehttp)
 - [TensorFlow binaries supporting AVX, FMA, SSE](https://github.com/lakshayg/tensorflow-build)
+
 [Back to TOC](#table-of-contents)
