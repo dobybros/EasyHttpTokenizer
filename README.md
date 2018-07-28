@@ -26,12 +26,12 @@ In additional, you can add/edit/modify under [MIT licence](https://github.com/do
 
 To open the simple HTTP Server, use this:
 ```
-$ python easy_http_tokenizer.py 6489 127.0.0.1
+$ python easy_http_tokenizer.py 8097 127.0.0.1
 ```
-##### Note that 127.0.0.1:6489 is the IP and port that you set up, if you have own server so it can be used.
+##### Note that 127.0.0.1:8097 is the IP and port that you set up, if you have own server so it can be used.
 To use word tokenizer, use this:
 ```
-$ curl -X POST 127.0.0.1:6489 -d "ผมเป็นคนไทย"
+$ curl -X POST 127.0.0.1:8097 -d "ผมเป็นคนไทย"
 ```
 So, that the output will be like this
 ```
@@ -66,6 +66,6 @@ This code is licensed under the MIT License - see the [LICENSE](https://github.c
 
 [Back to TOC](#table-of-contents)
 # See Also
-- [SimpleHTTPHandler](https://docs.python.org/3.7/library/http.server.html?highlight=simplehttp)
-
+- [SimpleHTTPHandler](https://docs.python.org/3.6.4/library/http.server.html?highlight=simplehttp)
+- [TensorFlow binaries supporting AVX, FMA, SSE](https://github.com/lakshayg/tensorflow-build)
 [Back to TOC](#table-of-contents)
