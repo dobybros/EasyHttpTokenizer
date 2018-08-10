@@ -29,7 +29,6 @@ class HTTPRequestHandler(http.server.BaseHTTPRequestHandler):
 	self.end_headers()
 	self.wfile.write(str_tokenized_data.encode("utf-8"))
     return
-	
    elif None != re.search('/tokenizer/china', self.path):
    #do-something
    #length = int(self.headers.get('content-length'))
@@ -44,6 +43,7 @@ class HTTPRequestHandler(http.server.BaseHTTPRequestHandler):
    return
 
   def do_GET(self):
+		 #translateing interface, it is interface feature
     if None != re.search('/', self.path):
 	#do-some-interface
 	#self.send_response(200, 'test')
@@ -51,7 +51,7 @@ class HTTPRequestHandler(http.server.BaseHTTPRequestHandler):
 	#self.end_headers()
 	#self.wfile.write("WELCOME TO CUTKUM TOKENIZER, USE POST at /tokenizer AND WRITE INPUT INTO RAW OF BODY.".encode("utf-8"))
 	return
-
+#separate class here to new python file,ThreadedHTTPServer.py
 class ThreadedHTTPServer(socketserver.ThreadingMixIn,http.server. HTTPServer):
   allow_reuse_address = True
 
@@ -77,7 +77,7 @@ class SimpleHttpServer():
   def stop(self):
     self.server.shutdown()
     self.waitForThread()
-
+#------
 if __name__=='__main__':
   parser = argparse.ArgumentParser(description='HTTP Server')
   parser.add_argument('port', type=int, help='Listening port for HTTP Server')
