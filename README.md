@@ -62,7 +62,7 @@ EASY_HTTP_Tokenizer 1.0
 
 [Back to TOC](#table-of-contents)
 # Licence
-This code is licensed under the MIT License - see the [LICENSE](https://github.com/dobybros/EasyHttpTokenizer/blob/master/Documentation/LICENSE) file for details
+This code is licensed under the MIT Licence - see the [LICENCE](https://github.com/dobybros/EasyHttpTokenizer/blob/master/Documentation/LICENSE) file for details
 
 [Back to TOC](#table-of-contents)
 # See Also
