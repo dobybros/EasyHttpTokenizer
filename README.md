@@ -31,7 +31,7 @@ $ python easy_http_tokenizer.py 8097 127.0.0.1
 ##### Note that 127.0.0.1:8097 is the IP and port that you set up, if you have own server so it can be used.
 To use word tokenizer, use this:
 ```
-$ curl -X POST 127.0.0.1:8097 -d "ผมเป็นคนไทย"
+$ curl -X POST 127.0.0.1:8097/tokenizer -d "ผมเป็นคนไทย"
 ```
 So, that the output will be like this
 ```
